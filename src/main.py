@@ -280,7 +280,7 @@ def run_cli(shell_path:str=os.getcwd()):
     twine_upload_status = subprocess.run(upload_command,shell=True,capture_output=True,text=True)
     print(twine_upload_status.stdout)
 
-    print(bfc.orange_text("[^^] Thanks for using pipme\n\n - by kushal kumar (dev@kushalkumarsaha.com)\n - www.portfolio.kushalkumarsaha.com\n\n"))
+    print(bfc.orange_text("[^^] Thanks for using Pipme\n\n - by Kushal Kumar (am.kushal02@gmail.com)\n - https://kushalkumarsaha.com\n\n"))
 
 
 
